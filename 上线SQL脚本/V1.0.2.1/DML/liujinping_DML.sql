@@ -1,0 +1,3 @@
+
+INSERT INTO `sd_account`.`tac_account` (`id`, `userId`, `plateformId`, `accountType`, `balanceAmount`, `accountStatus`, `remark`, `createTime`, `updateTime`) VALUES ('888889', '2', '1', '1', '799085.59', '1', 'µ£±£¹«Ë¾ÕÊºÅ', '2018-01-18 15:33:08', '2018-01-18 16:53:43');
+INSERT INTO `sd_account`.`tac_account` (`id`, `userId`, `plateformId`, `accountType`, `balanceAmount`, `accountStatus`, `remark`, `createTime`, `updateTime`) VALUES ('888890', '3', '1', '1', '799085.59', '1', '»µÕË', '2018-01-18 15:33:08', '2018-01-18 16:53:43');

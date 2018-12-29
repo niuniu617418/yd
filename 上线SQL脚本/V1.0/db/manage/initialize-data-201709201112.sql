@@ -1,0 +1,2 @@
+INSERT INTO `tmn_sys_permission` (`permissionId`, `permissionName`, `permissionValue`, `menuId`, `description`, `status`, `createdUser`, `createdTime`, `updatedUser`, `updatedTime`)
+VALUES (63053970188279808, '查询历史照片', 'audit:queryHisPhotoInfo', 60577147370086400, '查询历史照片', 0, 'admin', '2017-09-13 03:39:40', 'admin', '2017-09-13 03:39:40');

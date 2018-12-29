@@ -1,0 +1,8 @@
+INSERT INTO sd_account.tac_fundsfloworder (fundsFlowOrderNo, orderNo, completeDate, orderType, userId, plateformId, projectId, amount, bankAccount, bankCode, bankMobile, realName, idCard, status, createTime, updateTime) values (1516006396613028, 108065401685942272, '2018-01-15 16:38:50', 2, 79734785987076096, 1, 83838129315794944, 1630.00, 6212837501000055369, 01040000, '15575925698', '黄红桔', '430281199509154062', 1, '2018-01-15 16:38:50', '2018-01-15 16:38:50');
+INSERT INTO sd_account.tac_fundsfloworder (fundsFlowOrderNo, orderNo, completeDate, orderType, userId, plateformId, projectId, amount, bankAccount, bankCode, bankMobile, realName, idCard, status, createTime, updateTime) values (1516006396613029, 108065593927663616, '2018-01-15 16:39:36', 2, 68886609298219008, 1, 85894342224396288, 1570.00, 6217000730009882701, 01050000, '13674289782', '赵英杰', '211421199502224085', 1, '2018-01-15 16:39:36', '2018-01-15 16:39:36');
+INSERT INTO sd_account.tac_fundsfloworder (fundsFlowOrderNo, orderNo, completeDate, orderType, userId, plateformId, projectId, amount, bankAccount, bankCode, bankMobile, realName, idCard, status, createTime, updateTime) values (1516006396613030, 108065911407124480, '2018-01-15 16:40:52', 2, 71014569232834560, 1, 86252990775709696, 1570.00, 6212262010019212122, 01020000, '15350205275', '高强', '360430199204170339', 1, '2018-01-15 16:40:52', '2018-01-15 16:40:52');
+
+
+UPDATE sd_account.tac_withholdOrder t SET t.status =4 WHERE t.orderNo = 108065401685942272;
+UPDATE sd_account.tac_withholdOrder t SET t.status =4 WHERE t.orderNo = 108065593927663616;
+UPDATE sd_account.tac_withholdOrder t SET t.status =4 WHERE t.orderNo = 108065911407124480;

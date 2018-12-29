@@ -1,0 +1,6 @@
+
+-- 插入黑、灰名单限制时长
+INSERT INTO `sd_usercenter`.`tuc_sysParam` (`id`, `paramType`, `paramKey`, `paramValue`, `delFlag`, `description`, `createOperator`, `createTime`, `updateOperator`, `updateTime`) VALUES ('7', 'global', 'darklist.limitTime', '1825', '0', '黑名单限制时间（天）', '1', '2017-10-26 15:51:05', '1', '2017-10-26 15:51:09');
+INSERT INTO `sd_usercenter`.`tuc_sysParam` (`id`, `paramType`, `paramKey`, `paramValue`, `delFlag`, `description`, `createOperator`, `createTime`, `updateOperator`, `updateTime`) VALUES ('8', 'global', 'graylist.limitTime', '180', '0', '灰名单限制时间（天）', '1', '2017-10-26 15:52:01', '1', '2017-10-26 15:52:05');
+INSERT INTO `sd_usercenter`.`tuc_sysParam` (`id`, `paramType`, `paramKey`, `paramValue`, `delFlag`, `description`, `createOperator`, `createTime`, `updateOperator`, `updateTime`) VALUES ('9', 'global', 'put.darklist.condition', '90', '0', '贷后逾期入库黑名单时间条件（天）', '1', '2017-10-28 11:58:29', '1', '2017-10-28 11:58:35');
+INSERT INTO `sd_usercenter`.`tuc_sysParam` (`id`, `paramType`, `paramKey`, `paramValue`, `delFlag`, `description`, `createOperator`, `createTime`, `updateOperator`, `updateTime`) VALUES ('10', 'gloab', 'put.greylist.condition', '30', '0', '贷后逾期入库灰名单时间条件（天）', '1', '2017-10-28 13:38:00', '1', '2017-10-28 13:38:04');

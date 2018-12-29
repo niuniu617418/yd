@@ -1,0 +1,1 @@
+update sd_usercenter.tuc_sysparam set paramValue = '1' where paramKey = 'api.sms.sender.switch';

@@ -1,0 +1,3 @@
+USE `sd_trade`;
+INSERT INTO `trd_systemconfig` (`id`, `configKey`, `configValue`, `description`, `createTime`, `updateTime`, `createOperator`, `updateOperator`) VALUES(5, 'isToSendNiiwoo', 'true', '是否推标到你我金融(true表示开启推标，false表示关闭)', '2017-10-09 10:43:39', '2017-10-09 10:43:43', 1, 1);
+INSERT INTO `trd_systemconfig` (`id`, `configKey`, `configValue`, `description`, `createTime`, `updateTime`, `createOperator`, `updateOperator`) VALUES(6, 'syncNumNiiwoo', '50', '同步时，单次更新你我金融数据条数限制值，必须为数字', '2017-10-09 10:43:39', '2017-10-09 10:43:43', 1, 1);

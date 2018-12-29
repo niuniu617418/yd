@@ -1,0 +1,1 @@
+update tuc_userDataStatus t set t.dataStatus = 3, t.updateTime = now() where t.dataType = 9 and t.dataStatus = 1 and t.updateTime between '2017-09-28 00:00:00' and '2017-10-11 00:00:00';

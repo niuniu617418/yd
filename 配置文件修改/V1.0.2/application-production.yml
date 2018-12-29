@@ -1,0 +1,11 @@
+﻿#sd_task模块
+task:
+  work:
+    #10分钟扫描一次模型计算补漏服务
+    leakRepairing: 0 0/10 * * * ?
+
+
+
+#sd_user模块
+#新审核模型计算开关 0-开，1-关
+modelCalculationSwitch: 1

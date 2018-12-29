@@ -1,0 +1,1 @@
+update sd_usercenter.`tuc_messagetemplate` set templateContent = '{0}，您在你我云贷的借款【id：{1}】放款失败，建议您换绑银行卡后重新发起借款。详询400-8888-123' where id = 2;

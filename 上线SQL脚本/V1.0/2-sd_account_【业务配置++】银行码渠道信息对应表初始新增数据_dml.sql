@@ -1,0 +1,14 @@
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('1000000', 1, 'PSBC', '邮储银行');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('1020000', 1, 'ICBC', '工商银行');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('1030000', 1, 'ABC', '农业银行');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('1040000', 1, 'BOC', '中国银行');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('1050000', 1, 'CCB', '建设银行');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('3010000', 1, 'BCOM', '交通银行');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('3020000', 1, 'CITIC', '中信银行');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('3030000', 1, 'CEB', '光大银行');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('3050000', 1, 'CMBC', '民生银行');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('3060000', 1, 'GDB', '广发银行');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('3070000', 1, 'PAB', '平安银行');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('3080000', 1, 'CMB', '招商银行');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('3090000\r\n', 1, 'CIB', '兴业银行\r\n');
+INSERT INTO `tac_bankChannel` (`bankCode`, `channel`, `bankCodeOther`, `bankName`) VALUES ('3100000', 1, 'SPDB', '浦发银行\r\n');
